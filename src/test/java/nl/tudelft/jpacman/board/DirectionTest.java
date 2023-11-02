@@ -12,8 +12,8 @@ import org.junit.jupiter.api.Test;
  */
 public class DirectionTest {
     /***
-     * Test that the direction after pressing to the North
-     * The value in Y-Axis is subtracted by 1
+     * Test that the direction after pressing to the North.
+     * The value in Y-Axis is subtracted by 1.
      */
     @Test
     void testNorth_deltaY() {
@@ -22,8 +22,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the North
-     * The value in X-Axis is remained the same
+     * Test that the direction after pressing to the North.
+     * The value in X-Axis is remained the same.
      */
     @Test
     void testNorth_deltaX() {
@@ -32,8 +32,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the South
-     * The value in Y-Axis is added by 1
+     * Test that the direction after pressing to the South.
+     * The value in Y-Axis is added by 1.
      */
     @Test
     void testSouth_deltaY() {
@@ -42,8 +42,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the South
-     * The value in X-Axis is remained the same
+     * Test that the direction after pressing to the South.
+     * The value in X-Axis is remained the same.
      */
     @Test
     void testSouth_deltaX() {
@@ -52,8 +52,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the West
-     * The value in Y-Axis is remained the same
+     * Test that the direction after pressing to the West.
+     * The value in Y-Axis is remained the same.
      */
     @Test
     void testWest_deltaY() {
@@ -62,8 +62,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the West
-     * The value in X-Axis is subtracted by 1
+     * Test that the direction after pressing to the West.
+     * The value in X-Axis is subtracted by 1.
      */
     @Test
     void testWest_deltaX() {
@@ -72,8 +72,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the East
-     * The value in Y-Axis is remained the same
+     * Test that the direction after pressing to the East.
+     * The value in Y-Axis is remained the same.
      */
     @Test
     void testEast_deltaY() {
@@ -82,8 +82,8 @@ public class DirectionTest {
     }
 
     /***
-     * Test that the direction after pressing to the West
-     * The value in X-Axis is added by 1
+     * Test that the direction after pressing to the West.
+     * The value in X-Axis is added by 1.
      */
     @Test
     void testEast_deltaX() {
