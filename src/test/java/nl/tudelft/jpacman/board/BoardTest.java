@@ -14,8 +14,7 @@ public class BoardTest {
      *
      */
     @BeforeEach
-    void createBoard(){
-
+    void createBoard() {
         Square[][] grid = new Square[weight][height];
         grid[0][0] = new BasicSquare();
         board = new Board(grid);
@@ -25,7 +24,6 @@ public class BoardTest {
      */
     @Test
     void testWidth() {
-
         assertThat(board.getWidth()).isEqualTo(weight);
     }
     /***
@@ -41,15 +39,13 @@ public class BoardTest {
      */
     @Test
     void testWithinBorders() {
-
-        assertThat(board.withinBorders(weight - 1,height - 1)).isTrue();
+        assertThat(board.withinBorders(weight - 1, height - 1)).isTrue();
     }
     /***
      *
      */
     @Test
     void testBasicSquare() {
-
         assertThat(board).isNotNull();
     }
     /***
@@ -57,8 +53,7 @@ public class BoardTest {
      */
     @Test
     void testSquareAt() {
-
-        Square square = board.squareAt(weight - 1,height - 1);
+        Square square = board.squareAt(weight - 1, height - 1);
         assertThat(square).isInstanceOf(BasicSquare.class);
     }
 }
