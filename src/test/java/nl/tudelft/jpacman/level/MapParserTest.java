@@ -13,6 +13,9 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+/**
+ * To test that the map parsing
+ */
 @ExtendWith(MockitoExtension.class)
 public class MapParserTest {
     @Mock
